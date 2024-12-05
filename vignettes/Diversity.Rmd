@@ -20,7 +20,7 @@ Simpson diversity index
 Inverse Simpson diversity index
 Observed OTUs (Operational Taxonomic Units)
 
-The Microbialdiversity1.0 package provides a user-friendly way to perform these calculations and visualize the results.
+The Microbialdiversity1.0 package provides a user-friendly way to perform these calculations.
 
 #Setup
 ```{r setup}
