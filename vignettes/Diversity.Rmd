@@ -1,8 +1,8 @@
 ---
-title: "Diversity"
+title: "Microbialdiversity1.0: Diversity Analysis"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Diversity}
+  %\VignetteIndexEntry{Microbialdiversity1.0: Diversity Analysis}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
