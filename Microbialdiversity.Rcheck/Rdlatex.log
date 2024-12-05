@@ -1,0 +1,104 @@
+Hmm ... looks like a package
+Converting parsed Rd's to LaTeX .
+Creating pdf output from LaTeX ...
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  Running 'texi2dvi' on 'Rd2.tex' failed.
+Messages:
+/usr/local/bin/texi2dvi: makeindex failed
+Output:
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+
+(./Rd2.tex
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/Rd.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/zi4.sty `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))))) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty)
+Writing index file Rd2.idx
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file Rd2.aux.
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/t1zi4.fd) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd)
+No file Rd2.toc.
+
+[1{/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9] (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+[10]
+No file Rd2.ind.
+
+[11] (/private/var/folders/wb/lxp6jg7x7fb8xxqptvqg12dw0000gn/T/RtmpnEUNjQ/Rd2pdf839f21fe88e/Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )</Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (11 pages, 93641 bytes).
+Transcript written on Rd2.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+
+(./Rd2.tex
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/Rd.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/zi4.sty `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Incon
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+
+(./Rd2.tex
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/Rd.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/zi4.sty `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))))) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty)
+Writing index file Rd2.idx
+(/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (/private/var/folders/wb/lxp6jg7x7fb8xxqptvqg12dw0000gn/T/RtmpnEUNjQ/Rd2pdf839f21fe88e/Rd2.aux) (/private/var/folders/wb/lxp6jg7x7fb8xxqptvqg12dw0000gn/T/RtmpnEUNjQ/Rd2pdf839f21fe88e/Rd2.out) (/private/var/folders/wb/lxp6jg7x7fb8xxqptvqg12dw0000gn/T/RtmpnEUNjQ/Rd2pdf839f21fe88e/Rd2.out) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/t1zi4.fd) (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd) (/private/var/folders/wb/lxp6jg7x7fb8xxqptvqg12dw0000gn/T/RtmpnEUNjQ/Rd2pdf839f21fe88e/Rd2.toc)
+[1{/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9] (/Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+[10]
+No file Rd2.ind.
+
+[11] (/private/var/folders/wb/lxp6jg7x7fb8xxqptvqg12dw0000gn/T/RtmpnEUNjQ/Rd2pdf839f21fe88e/Rd2.aux) )</Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/oluwamayowaakinsuyi/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (11 pages, 95570 bytes).
+Transcript written on Rd2.log.
+Saving output to ‘Microbialdiversity-manual.pdf’ ...
+Done
+You may want to clean up by 'rm -Rf /var/folders/wb/lxp6jg7x7fb8xxqptvqg12dw0000gn/T//RtmpnEUNjQ/Rd2pdf839f21fe88e'

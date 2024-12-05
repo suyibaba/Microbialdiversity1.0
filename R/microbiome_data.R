@@ -1,0 +1,48 @@
+##' Example Microbiome Dataset
+##'
+##' A small example dataset containing microbial abundance data with associated metadata
+##' and taxonomy information. The dataset includes 5 taxa across 10 samples, with samples
+##' divided between Control and Treatment conditions.
+##'
+##' @format A list containing three elements:
+##' \describe{
+##'   \item{abundances}{A matrix with 5 taxa (rows) and 10 samples (columns)}
+##'   \item{metadata}{A data frame with 10 rows and 2 columns:
+##'     \itemize{
+##'       \item sample_id: Sample identifier (Sample_1 to Sample_10)
+##'       \item condition: Factor with levels Control and Treatment
+##'     }
+##'   }
+##'   \item{taxonomy}{A data frame with 5 rows and 2 columns:
+##'     \itemize{
+##'       \item taxa_id: Taxa identifier (Taxa_1 to Taxa_5)
+##'       \item genus: Genus classification
+##'     }
+##'   }
+##' }
+##'
+##' @usage data(microbiome_data)
+##'
+##' @examples
+##' # Load the dataset
+##' data(microbiome_data)
+##'
+##' # Calculate Shannon diversity for each sample
+##' shannon_values <- apply(microbiome_data$abundances, 2, calculate_shannon)
+##'
+##' # Compare diversity between conditions
+##' control_samples <- microbiome_data$abundances[, 
+##'                   microbiome_data$metadata$condition == "Control"]
+##' treatment_samples <- microbiome_data$abundances[, 
+##'                     microbiome_data$metadata$condition == "Treatment"]
+##' diversity_comparison <- compare_shannon_two(control_samples, treatment_samples)
+##'
+##' # View first few rows of abundance data
+##' head(microbiome_data$abundances)
+##'
+##' # View sample metadata
+##' print(microbiome_data$metadata)
+##'
+##' @source Generated example dataset for demonstration purposes
+##' @name microbiome_data
+"microbiome_data"

@@ -1,0 +1,33 @@
+Microbialdiversity      Microbialdiversity: A package for calculating
+                        microbial diversity indices
+calculate_inverse_simpson
+                        Calculate Inverse Simpson Diversity Index
+calculate_observed_otus
+                        Calculate Observed OTUs
+calculate_shannon       Calculate Shannon Diversity Index
+calculate_simpson       Calculate Simpson Diversity Index This function
+                        calculates the Simpson diversity index (1-D)
+                        for a vector of species counts or proportions.
+                        The Simpson index ranges from 0 (low diversity)
+                        to 1 (high diversity).
+compare_inverse_simpson_multiple
+                        Compare Inverse Simpson Diversity Between
+                        Multiple Groups
+compare_inverse_simpson_two
+                        Compare Inverse Simpson Diversity Between Two
+                        Groups
+compare_observed_otus_multiple
+                        Compare Observed OTUs Between Multiple Groups
+compare_observed_otus_two
+                        Compare Observed OTUs Between Two Groups
+compare_shannon_multiple
+                        Compare Shannon Diversity Between Multiple
+                        Groups
+compare_shannon_two     Compare Shannon Diversity Between Two Groups
+compare_simpson_multiple
+                        Compare Simpson Diversity Between Multiple
+                        Groups
+compare_simpson_two     Compare Simpson Diversity Between Two Groups
+microbiome_data         Example Microbiome Dataset
+shannon_diversity       Shannon Diversity Functions
+simpson_diversity       Simpson Diversity Functions
