@@ -4,7 +4,9 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Oluwamayowa", "Akinsuyi", , "o.akinsuyi@ufl.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Provides tools for calculating microbial diversity indices 
+    (e.g., Shannon, Simpson, and Inverse Simpson) and comparing diversity 
+    between groups. Useful for microbiome research and ecological analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
