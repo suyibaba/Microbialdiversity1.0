@@ -1,14 +1,13 @@
 ---
 title: "Diversity"
-author: "Your Name"
+author: "Oluwamayowa Akinsuyi"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Diversity}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
-suggests: 
-  Microbialdiversity
+  %\VignetteDepends{Microbialdiversity1.0}
 ---
 
 ```{r, include = FALSE}
