@@ -1,10 +1,14 @@
 ---
 title: "Diversity"
+author: "Your Name"
+date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Diversity}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+suggests: 
+  Microbialdiversity
 ---
 
 ```{r, include = FALSE}
@@ -15,8 +19,10 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-if(!require(Microbialdiversity)) {
-  install.packages("Microbialdiversity")
+if (requireNamespace("Microbialdiversity1.0", quietly = TRUE)) {
+  library(Microbialdiversity1.0, quietly = TRUE)
+} else {
+  stop("Microbialdiversity1.0 package is required but not installed")
 }
 ```
 
