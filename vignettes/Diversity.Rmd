@@ -97,7 +97,7 @@ simpson_comparison <- compare_simpson_multiple(microbiome_data$abundances)
 ```
 Interpretation Guide
 Shannon Diversity Index:Ranges from 0 to ln(S), where S is the number of species. Higher values indicate greater diversity. It also Considers both richness and evenness. Its also  Sensitive to rare species.
-Simpson Diversity Index (1-D):  Ranges from 0 (low diversity) to 1 (high diversity). This inddex Emphasizes dominant species and is  Less sensitive to rare species. The simpson Value represents probability that two randomly selected individuals belong to different species.
+Simpson Diversity Index (1-D):  Ranges from 0 (low diversity) to 1 (high diversity). This inddex emphasizes dominant species and is less sensitive to rare species. The simpson Value represents probability that two randomly selected individuals belong to different species.
 Inverse Simpson Index:Ranges from 1 to the number of species. Higher values indicate greater diversity. It gives more weight to abundant species, and its less influenced by rare species.
 Observed OTUs: Its a simple count of species present (abundance > 0). It measures species richness. It does not consider relative abundances. Its useful for comparing basic community composition
 
