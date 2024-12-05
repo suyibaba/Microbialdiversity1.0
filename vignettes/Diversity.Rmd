@@ -13,7 +13,100 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+Introduction
+This vignette demonstrates how to use the Microbialdiversity1.0 package to calculate and compare various diversity indices commonly used in ecological and microbiome research. The package includes:
+Shannon diversity index
+Simpson diversity index
+Inverse Simpson diversity index
+Observed OTUs (Operational Taxonomic Units)
 
+The Microbialdiversity1.0 package provides a user-friendly way to perform these calculations and visualize the results.
+
+#Setup
 ```{r setup}
 library(Microbialdiversity1.0)
 ```
+Example Dataset
+The package includes an example dataset called microbiome_data. It contains:
+
+abundances: A matrix of microbial counts (rows: species, columns: samples).
+metadata: Metadata for samples (e.g., group assignments).
+Load the dataset:
+```{r}
+data(microbiome_data)
+
+# Inspect the structure of the dataset
+str(microbiome_data)
+```
+Diversity Indices Calculation
+The package provides functions to calculate different diversity indices for a single sample.
+
+Shannon Diversity
+The Shannon diversity index measures species richness and evenness:
+```{r}
+# Calculate Shannon diversity for the first sample
+sample1 <- microbiome_data$abundances[, 1]
+shannon_index <- calculate_shannon(sample1)
+shannon_index
+
+```
+Simpson Diversity
+The Simpson index measures the probability that two randomly selected individuals belong to the same species:
+```{r}
+# Calculate Simpson diversity
+simpson_index <- calculate_simpson(sample1)
+simpson_index
+```
+
+Inverse Simpson Diversity
+The Inverse Simpson index provides an inverse measure of dominance:
+```{r}
+# Calculate Inverse Simpson diversity
+inv_simpson <- calculate_inverse_simpson(sample1)
+inv_simpson
+```
+
+Observed OTUs
+The Observed OTUs metric counts the number of unique species:
+```{r}
+# Calculate Observed OTUs
+otus <- calculate_observed_otus(sample1)
+otus
+```
+Comparing Diversity Between Groups
+The package includes functions to compare diversity indices between groups.
+
+Compare Shannon Diversity
+```{r}
+# Subset data for Control and Treatment groups
+control_samples <- microbiome_data$abundances[, microbiome_data$metadata$condition == "Control"]
+treatment_samples <- microbiome_data$abundances[, microbiome_data$metadata$condition == "Treatment"]
+
+# Compare Shannon diversity between groups
+shannon_comparison <- compare_shannon_two(control_samples, treatment_samples)
+shannon_comparison
+```
+
+Compare Simpson Diversity
+```{r}
+# For comparing two groups
+simpson_comparison <- compare_simpson_two(control_samples, treatment_samples)
+
+# For multiple groups, just pass the abundance matrix
+simpson_comparison <- compare_simpson_multiple(microbiome_data$abundances)
+```
+Interpretation Guide
+Shannon Diversity Index:Ranges from 0 to ln(S), where S is the number of species Higher values indicate greater diversity Considers both richness and evenness, Sensitive to rare species
+Simpson Diversity Index (1-D):  Ranges from 0 (low diversity) to 1 (high diversity) Emphasizes dominant species Less sensitive to rare species
+Value represents probability that two randomly selected individuals belong to different species
+Inverse Simpson Index :Ranges from 1 to the number of species Higher values indicate greater diversity, Gives more weight to abundant species
+Less influenced by rare species
+Observed OTUs: Simple count of species present (abundance > 0), Measures species richness, Does not consider relative abundances Useful for comparing basic community composition
+P-values
+P < 0.05 indicates significant differences between communities
+
+Multiple comparison matrices show pairwise p-values
+Diagonal values are always 1 (comparing community with itself)
+Conclusion
+The Microbialdiversity1.0 package provides a comprehensive toolkit for analyzing community diversity using multiple indices. Each metric offers different insights into community structure:Shannon index for overall diversity, Simpson index for dominant species, Inverse Simpson for abundance-weighted diversity, Observed OTUs for species richness.
+Choose the appropriate metric based on your research questions and the aspects of community diversity you want to emphasize
