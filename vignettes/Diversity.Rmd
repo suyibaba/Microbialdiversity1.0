@@ -96,17 +96,17 @@ simpson_comparison <- compare_simpson_two(control_samples, treatment_samples)
 simpson_comparison <- compare_simpson_multiple(microbiome_data$abundances)
 ```
 Interpretation Guide
-Shannon Diversity Index:Ranges from 0 to ln(S), where S is the number of species Higher values indicate greater diversity Considers both richness and evenness, Sensitive to rare species
-Simpson Diversity Index (1-D):  Ranges from 0 (low diversity) to 1 (high diversity) Emphasizes dominant species Less sensitive to rare species
-Value represents probability that two randomly selected individuals belong to different species
-Inverse Simpson Index :Ranges from 1 to the number of species Higher values indicate greater diversity, Gives more weight to abundant species
-Less influenced by rare species
-Observed OTUs: Simple count of species present (abundance > 0), Measures species richness, Does not consider relative abundances Useful for comparing basic community composition
+Shannon Diversity Index:Ranges from 0 to ln(S), where S is the number of species. Higher values indicate greater diversity. It also Considers both richness and evenness. Its also  Sensitive to rare species.
+Simpson Diversity Index (1-D):  Ranges from 0 (low diversity) to 1 (high diversity). This inddex Emphasizes dominant species and is  Less sensitive to rare species. The simpson Value represents probability that two randomly selected individuals belong to different species.
+Inverse Simpson Index:Ranges from 1 to the number of species. Higher values indicate greater diversity. It gives more weight to abundant species, and its less influenced by rare species.
+Observed OTUs: Its a simple count of species present (abundance > 0). It measures species richness. It does not consider relative abundances. Its useful for comparing basic community composition
+
 P-values
 P < 0.05 indicates significant differences between communities
 
 Multiple comparison matrices show pairwise p-values
 Diagonal values are always 1 (comparing community with itself)
+
 Conclusion
 The Microbialdiversity1.0 package provides a comprehensive toolkit for analyzing community diversity using multiple indices. Each metric offers different insights into community structure:Shannon index for overall diversity, Simpson index for dominant species, Inverse Simpson for abundance-weighted diversity, Observed OTUs for species richness.
 Choose the appropriate metric based on your research questions and the aspects of community diversity you want to emphasize
