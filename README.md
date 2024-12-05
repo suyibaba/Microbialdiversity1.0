@@ -1,5 +1,5 @@
 # Test Microbialdiversity1.0
-This is a nice package usef for comparing microbial diversity between two or more groups
+This is a nice package use for comparing microbial diversity between two or more groups
 
 ## How to install the R package
 devtools::install_github("suyibaba/Microbialdiversity1.0")
