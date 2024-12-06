@@ -2,7 +2,7 @@
 This is a nice package use for comparing microbial diversity between two or more groups
 
 ## How to install the R package
-devtools::install_github("YOUR_GITHUB_USERNAME/Microbialdiversity1.0", build_vignettes = TRUE)
+devtools::install_github("suyibaba/Microbialdiversity1.0",build_vignettes = TRUE)
 
 
 ## Example
